@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.6;
+    background-color: rgba(161, 162, 163, 0.342);
+    
+}
+header{
+    padding: 5px;
+    font-size: 15px;
+    background:linear-gradient(135deg, #000000, #202122,  #323435);    
+    color: white;
+    text-align: center;
+
+}
+section{
+    margin-left: 15px;   
+    display: flex; 
+    align-items: center;
+    gap: 9px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+section input{
+    border-radius: 10px;
+    border-style: solid;
+}
+button{
+    font-style: italic;
+    background-color: #000000;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+
