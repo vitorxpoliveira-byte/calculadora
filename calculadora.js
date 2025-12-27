@@ -4,7 +4,7 @@ function calcularimc(){
 
     let calculo = peso / (altura * altura);
 
-    document.getElementById("resultado").textContent = "Resultado Final:" + calculo.toFixed(2);
+    document.getElementById("resultado").textContent = "Resultado Final: " + calculo.toFixed(2);
 
     let mensagem = document.getElementById("mensagem");
 
